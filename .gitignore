@@ -1,0 +1,9 @@
+/node_modules
+.env
+.vscode/
+.DS_Store
+products.http
+roles.http
+users.http
+none.js
+out

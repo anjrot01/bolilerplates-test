@@ -1,0 +1,21 @@
+{
+  "plugins": [],
+  "recurseDepth": 10,
+  "source": {
+      "include": ["helpers", "controllers"],
+      "includePattern": ".js$",
+      "excludePattern": "(node_modules|out)"
+  },
+  "sourceType": "module",
+  "tags": {
+      "allowUnknownTags": true,
+      "dictionaries": ["jsdoc","closure"]
+  },
+  "templates": {
+      "cleverLinks": false,
+      "monospaceLinks": false
+  },
+  "opts":{
+    "recurse": true
+  }
+}

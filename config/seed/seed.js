@@ -38,3 +38,4 @@ const createAdminUser = async roleId => {
     process.exit();
   }
 })();
+// none

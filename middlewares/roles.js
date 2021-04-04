@@ -1,4 +1,4 @@
-const RolesModels = require("../models/Roles");
+const RolesModels = require("../models/roles");
 
 exports.getRoles = async (req, res, next) => {
   // revisar si existe un rol y sino role "user" por default

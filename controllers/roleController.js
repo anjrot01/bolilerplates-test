@@ -1,5 +1,5 @@
 const { find, findById, create, update, erase } = require("../helpers/crud");
-const Model = require("../models/Roles");
+const Model = require("../models/roles");
 
 exports.getAllData = async (req, res) => {
   try {
